@@ -4,4 +4,3 @@ ssh_authorized_keys:
 {% for key in instance_keys %}  - {{ key }}
 {% endfor %}
 {% endif %}
-
